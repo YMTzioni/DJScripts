@@ -10,15 +10,20 @@ This folder contains scripts that interact with the Spotify API to fetch track l
 
 ## How to Use
 
-1. Make sure you have Python 3 installed on your system.
+1. Ensure you have Python 3 installed on your system.
 
-2. Install the required Python packages by running `pip install -r requirements.txt` in your terminal.
+2. Install the required Python packages by running the following command in your terminal: pip install -r requirements.txt
 
-3. Run `python track_listing.py` and enter the Spotify playlist IDs for the playlists you want to track.
+3. Open the `track_listing.py` script in a text editor.
 
-4. After the script completes, run `python playlist_to_excel.py` to convert the track listings into an Excel file.
+4. Replace `'your-client-id'` in the script with your actual Spotify Client ID. To obtain a Spotify Client ID, create a Spotify Developer account and register a new application.
 
-Refer to the comments in the scripts for more detailed information.
+5. Run `python track_listing.py` and enter the Spotify playlist IDs for the playlists you want to track. Follow the prompts and enter `'done'` when finished.
+
+6. Once the script completes, run `python playlist_to_excel.py` to convert the track listings into an Excel file.
+
+Please refer to the comments within the scripts for more detailed information.
+
 
 ## License
 
