@@ -4,9 +4,9 @@ This folder contains scripts that interact with the Spotify API to fetch track l
 
 ## Scripts
 
-1. `track_listing.py`: Fetches track listings from user-specified Spotify playlists and saves them to `playlists.txt`.
+1. `TrackListing.py`: Fetches track listings from user-specified Spotify playlists and saves them to `playlists.txt`.
 
-2. `playlist_to_excel.py`: Reads `playlists.txt` and converts it into an Excel file (`playlists.xlsx`), with each playlist as a separate sheet.
+2. `ExcelList.py`: Reads `playlists.txt` and converts it into an Excel file (`playlists.xlsx`), with each playlist as a separate sheet.
 
 ## How to Use
 
